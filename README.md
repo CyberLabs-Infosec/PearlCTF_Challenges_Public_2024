@@ -16,7 +16,7 @@ Official Writeups for PearlCTF'24
 
 - [ ] [pcap busterz-1](/forensics/pcap-busterz-1) - `Pr0meth3u5`
 - [x] [pcap busterz-2](/forensics/pcap-busterz-2) - `Drago`
-- [ ] hungry cat - `Pr0meth3u5`
+- [ ] [hungry cat](/forensics/) - `Pr0meth3u5`
 - [ ] the 3 fragmenteers - `Pr0meth3u5`
 - [ ] [SoundScape](/forensics/soundscape) - `Pr0meth3u5`
 - [ ] got you - `Pr0meth3u5`
@@ -51,12 +51,11 @@ Official Writeups for PearlCTF'24
 ## [web](/web/)
 
 - [x] [learn HTTP](/web/learn-http) - `B3gul4`
-- [ ] [I am a web-noob](/web/noob-login) - `s4yCh33se`
 - [x] [steps to success](/web/steps-to-success) - `B3gul4`
 - [ ] Uploader - `Al13n`
 - [x] [rusty proxy again](/web/rusty-proxy-again) - `B3gul4`
 - [x] [learn HTTP better](/web/v1-learn-http) - `B3gul4`
-- [ ] [rabbithole](/web/rabbithole) - `n0tsane`
+- [x] [rabbithole](/web/rabbithole) - `n0tsane`
 - [x] [learn HTTP (bug free)](/web/v2-learn-http) - `B3gul4`
 
 ## [misc](/misc/)
