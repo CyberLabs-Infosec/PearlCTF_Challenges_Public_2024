@@ -6,7 +6,7 @@ Official Writeups for PearlCTF'24
 - [x] [three letter acronyms](/crypto/3-letter-acronyms) - `Masrt`
 - [ ] [Security++](/crypto/security-plus) - `n0tsane`
 - [ ] [Baby's Message Out](/crypto/baby-rsa) - `s4yCh33s3`
-- [ ] [3-spies](/crypto/3-spies) - `4darsh`
+- [x] [3-spies](/crypto/3-spies) - `4darsh`
 - [ ] [rickroll](/crypto/pdf) - `SRPG`
 - [x] [syntelestis](/crypto/syntelestis) - `Masrt`
 - [ ] [Moments in the Making](/crypto/moments-in-the-making) - `Masrt`
@@ -15,7 +15,7 @@ Official Writeups for PearlCTF'24
 ## [forensics](/forensics/)
 
 - [ ] [pcap busterz-1](/forensics/pcap-busterz-1) - `Pr0meth3u5`
-- [ ] [pcap busterz-2](/forensics/pcap-busterz-2) - `Drago`
+- [x] [pcap busterz-2](/forensics/pcap-busterz-2) - `Drago`
 - [ ] hungry cat - `Pr0meth3u5`
 - [ ] the 3 fragmenteers - `Pr0meth3u5`
 - [ ] [SoundScape](/forensics/soundscape) - `Pr0meth3u5`
@@ -65,16 +65,16 @@ Official Writeups for PearlCTF'24
 - [ ] [Machine Trouble](/misc/dfa) - `e4stw1nd`
 - [x] [i^2 = -1](/misc/i-2) - `Masrt`
 - [ ] [jail_time](/misc/jail) - `e4stw1nd`
-- [ ] [TooRandom](/misc/toorandom) - `kannaya`
+- [x] [TooRandom](/misc/toorandom) - `kannaya`
 - [ ] [Circuits](/misc/circuits) - `n0tsane`
 - [ ] [shipwreck](/misc/ship-wreck) - `cyb3rpunk_b4ddi3`
 
 ## [osint](/osint/)
 
 - [ ] [lost letter](/osint/lost-letter) - `kannaya`
-- [ ] [scrutiny](/osint/scrutiny) - `izmelucifer17`
-- [ ] [noob hacker](/osint/noob-hacker) - `izmelucifer17` 
-- [ ] [bomb trace](/osint/bomb-trace) - `kannaya`
+- [x] [scrutiny](/osint/scrutiny) - `izmelucifer17`
+- [x] [noob hacker](/osint/noob-hacker) - `izmelucifer17` 
+- [x] [bomb trace](/osint/bomb-trace) - `kannaya`
 
 ## [game](/game/)
 
