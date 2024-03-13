@@ -24,12 +24,12 @@ Official Writeups for PearlCTF'24
 - [ ] hungry-cat-2 - `Pr0meth3u5`
 - [ ] Scuba Diver - `hidden_truth`
 - [ ] [Excel Mayhem](/forensics/excel-mayhem) - `kannaya`
-- [ ] [beautiful song](/forensics/beautiful-song) - `B3gul4`
+- [x] [beautiful song](/forensics/beautiful-song) - `B3gul4`
 - [ ] [WiFi broken](/forensics/wifi-broken) - `e4stw1nd`
 
 ## [reversing](/rev/)
 
-- [ ] [rusty proxy](/rev/rusty-proxy) - `B3gul4`
+- [x] [rusty proxy](/rev/rusty-proxy) - `B3gul4`
 - [x] [flensing](/rev/flensing) - `TheAlpha`
 - [ ] [nimrod](/rev/nimrod) - `TheAlpha`
 - [ ] [not-so-easy](/rev/not-so-easy) - `v1per`
@@ -50,14 +50,14 @@ Official Writeups for PearlCTF'24
 
 ## [web](/web/)
 
-- [ ] [learn HTTP](/web/learn-http) - `B3gul4`
+- [x] [learn HTTP](/web/learn-http) - `B3gul4`
 - [ ] [I am a web-noob](/web/noob-login) - `s4yCh33se`
-- [ ] [steps to success](/web/steps-to-success) - `B3gul4`
+- [x] [steps to success](/web/steps-to-success) - `B3gul4`
 - [ ] Uploader - `Al13n`
-- [ ] [rusty proxy again](/web/rusty-proxy-again) - `B3gul4`
-- [ ] [learn HTTP better](/web/v1-learn-http) - `B3gul4`
+- [x] [rusty proxy again](/web/rusty-proxy-again) - `B3gul4`
+- [x] [learn HTTP better](/web/v1-learn-http) - `B3gul4`
 - [ ] [rabbithole](/web/rabbithole) - `n0tsane`
-- [ ] [learn HTTP (bug free)](/web/v2-learn-http) - `B3gul4`
+- [x] [learn HTTP (bug free)](/web/v2-learn-http) - `B3gul4`
 
 ## [misc](/misc/)
 
