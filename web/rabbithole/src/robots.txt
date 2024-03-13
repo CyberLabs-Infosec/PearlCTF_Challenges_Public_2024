@@ -1,0 +1,3 @@
+User-agent: *   <br>
+
+Disallow: /w0rk_h4rd

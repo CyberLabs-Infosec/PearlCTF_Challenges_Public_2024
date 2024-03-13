@@ -1,0 +1,45 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100svh;
+}
+
+.hidden {
+    display: none;
+}
+
+#form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input, button {
+    outline: none;
+    border: solid 1px rgb(204, 204, 204);
+    padding: 10px;
+    font-size: 20px;
+}
+
+button {
+    color: rgb(83, 83, 83);
+    background-color: rgb(210, 210, 255);
+    cursor: pointer;
+}
+
+#err_banner, #user_banner {
+    background-color: rgb(255, 115, 115);
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+
+#user_banner {
+    background-color: rgb(255, 229, 142);
+    color: rgb(100, 77, 0);
+    font-size: 18px;
+}

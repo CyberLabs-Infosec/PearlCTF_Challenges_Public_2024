@@ -1,0 +1,72 @@
+:root {
+    font-family: "Manrope", sans-serif;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    margin: 0px;
+    background-color: rgb(233, 232, 215);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#container {
+    display: grid;
+    grid-auto-columns: 500px 100px;
+    gap: 10px;
+}
+
+#title {
+    font-weight: 800;
+    grid-column: 1/ span 2;
+    text-align: center;
+    font-size: 32px;
+    color: rgb(255, 161, 21);
+}
+
+#explain {
+    grid-column: 1/ span 2;
+}
+
+.inp {
+    outline: none;
+    padding: 7px 5px;
+    font-size: 17px;
+    grid-column: 1/ span 2;
+}
+
+#url {
+    width: 100%;
+    text-align: center;
+}
+
+#for-adm {
+    grid-column: 1/ span 2;
+    display: grid;
+    gap: 5px;
+    grid-auto-columns: 250px 100px 250px;
+    background-color: rgb(255, 229, 229);
+    color: rgb(255, 96, 96);
+    text-align: center;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+#adm-title {
+    grid-column: 1/ span 3;
+}
+
+#sub-btn {
+    grid-column: 2/ span 1;
+    font-size: 17px;
+    background-color: hsl(271, 100%, 91%);
+    border: 2px solid rgb(172, 123, 218);
+    cursor: pointer;
+}
+
+#adm-msg {
+    grid-column: 1/ span 3;
+    color: rgb(89, 122, 89);
+}

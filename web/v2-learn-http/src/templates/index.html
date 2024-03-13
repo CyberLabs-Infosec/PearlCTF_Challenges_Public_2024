@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/static/css/global.css"/>
+    <title>Learn HTTP</title>
+</head>
+<body>
+    <div id="container">
+        <div id="form">
+            <input id="name" placeholder="Enter your name"/>
+            <button style="font-size: 17px;" onclick=submit()>Submit</button>
+        </div>
+    </div>
+    <script>
+        const submit = () => {
+            document.cookie = `name=${document.getElementById("name").value}; path=/`
+            window.location = "/learn"
+        }
+    </script>
+</body>
+</html>

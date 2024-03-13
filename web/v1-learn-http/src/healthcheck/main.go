@@ -1,0 +1,23 @@
+package main
+
+import (
+	"bytes"
+	"example.com/healthcheck/hook"
+	"net/http"
+	"net/url"
+	"os"
+	"time"
+)
+
+func main() {
+	go hook.Run()
+	go check()
+	time.Sleep(30 * time.Second)
+	os.Exit(1)
+}
+
+func check() {
+	body, _ := url.PathUnescape(os.Args[1])
+	real_body := url.PathEscape(body)
+	http.Post("http://localhost:5000/check", "application/x-www-form-urlencoded", bytes.NewBuffer([]byte("body=" + real_body)))
+}

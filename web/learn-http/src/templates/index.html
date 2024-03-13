@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="static/css/global.css"/>
+    <title>Learn HTTP</title>
+</head>
+<body>
+    <div id="container">
+        <div id="title">Let's learn how HTTP response works!</div>
+        <p id="explain">
+            Refer <a href="https://www.ibm.com/docs/en/cics-ts/6.1?topic=protocol-http-responses">Documentation</a>, enter a sample url-encoded http response below and head to the url to see if your response.<br><br>Ex: HTTP/1.1 200 OK\r\n\r\nhello will be <span style="color: rgb(0, 114, 0);">HTTP%2F1.1%20200%20OK%0D%0A%0D%0Ahello</span>
+        </p>
+        <input class="inp" id="resp-inp" oninput=getURL() placeholder="Enter a raw http response"/>
+        <p id="url"><span id="url-inner"></span></p>
+        <div id="for-adm">
+            <p1 id="adm-title">Not sure if the response looks correct?<br>let admin examine it.</p1>
+            <button id="sub-btn" onclick=check()>Check</button>
+            <p id="adm-msg"></p>
+        </div>
+    </div>
+</body>
+<script>
+    document.getElementById("url-inner").innerText = `${location.protocol}//${location.host}/resp?body=`;
+    const getURL = () => {
+        let resp = document.getElementById("resp-inp").value;
+        document.getElementById("url-inner").innerText = `${location.protocol}//${location.host}/resp?body=${resp}`;
+    }
+
+    const check = async () => {
+        let body = document.getElementById("resp-inp").value;
+        let resp = await fetch("/check", {
+            method: "POST",
+            body: `body=${body}`,
+            headers: {
+                "Content-type": "application/x-www-form-urlencoded"
+            }
+        });
+
+        let msg = await resp.text();
+        document.getElementById("adm-msg").innerText = msg;
+    }
+</script>
+</html>

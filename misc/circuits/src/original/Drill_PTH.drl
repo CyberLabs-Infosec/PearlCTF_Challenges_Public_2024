@@ -1,0 +1,12 @@
+G04 Created by GerbView*
+%FSLAX26Y26*%
+%MOIN*%
+G75*
+%ADD10C,0.0200*%
+%LNEXPORT*%
+D02*
+D10*
+X2600Y2600D03*
+D9*
+D02*
+M02*
