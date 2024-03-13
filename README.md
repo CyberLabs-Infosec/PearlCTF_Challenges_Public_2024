@@ -5,7 +5,7 @@ Official Writeups for PearlCTF'24
 
 - [x] [three letter acronyms](/crypto/3-letter-acronyms) - `Masrt`
 - [ ] [Security++](/crypto/security-plus) - `n0tsane`
-- [ ] [Baby's Message Out](/crypto/baby-rsa) - `s4yCh33s3`
+- [x] [Baby's Message Out](/crypto/baby-rsa) - `s4yCh33s3`
 - [x] [3-spies](/crypto/3-spies) - `4darsh`
 - [ ] [rickroll](/crypto/pdf) - `SRPG`
 - [x] [syntelestis](/crypto/syntelestis) - `Masrt`
@@ -25,7 +25,7 @@ Official Writeups for PearlCTF'24
 - [ ] Scuba Diver - `hidden_truth`
 - [ ] [Excel Mayhem](/forensics/excel-mayhem) - `kannaya`
 - [x] [beautiful song](/forensics/beautiful-song) - `B3gul4`
-- [ ] [WiFi broken](/forensics/wifi-broken) - `e4stw1nd`
+- [x] [WiFi broken](/forensics/wifi-broken) - `e4stw1nd`
 
 ## [reversing](/rev/)
 
@@ -61,10 +61,10 @@ Official Writeups for PearlCTF'24
 
 ## [misc](/misc/)
 
-- [ ] [b4by_jail](/misc/babyjail) - `e4stw1nd`
-- [ ] [Machine Trouble](/misc/dfa) - `e4stw1nd`
+- [x] [b4by_jail](/misc/babyjail) - `e4stw1nd`
+- [x] [Machine Trouble](/misc/dfa) - `e4stw1nd`
 - [x] [i^2 = -1](/misc/i-2) - `Masrt`
-- [ ] [jail_time](/misc/jail) - `e4stw1nd`
+- [x] [jail_time](/misc/jail) - `e4stw1nd`
 - [x] [TooRandom](/misc/toorandom) - `kannaya`
 - [ ] [Circuits](/misc/circuits) - `n0tsane`
 - [ ] [shipwreck](/misc/ship-wreck) - `cyb3rpunk_b4ddi3`
