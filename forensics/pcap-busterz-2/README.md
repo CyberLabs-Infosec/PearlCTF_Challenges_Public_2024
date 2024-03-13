@@ -19,7 +19,7 @@ There is a .lua  Wireshark plugin available on internet for decoding the protoco
 
 This plugin will help decode the protocol:
 
-![decoded packet details](image.png)
+![decoded packet details](./solve/image.png)
 
 There are 6 type of actions relayed:
 ```
@@ -78,11 +78,11 @@ Start minetest
 
 Start python idle
 
-![Minetest](image-1.png)
+![Minetest](./solve/image-1.png)
 
 ### Its better to install Superflat(flat world) mod to better plot the coordinates on a flat empty map.
 
-![Superflat](image-2.png)
+![Superflat](./solve/image-2.png)
 
 now, load the pts.py script in the python IDLE:
 ```python
@@ -100,11 +100,11 @@ mt.node.set(pts)
 ```
 ### After plotting the coordinates, it will appear as:
 
-![morse code](image-3.png)
+![morse code](./solve/image-3.png)
 
 it seems lil bit unintelligible but its a morse code and after tinkering a bit, you will get the flag
 
-![morse](ans.jpg)
+![morse](./solve/ans.jpg)
 
 Flag : pearl{M0RS3_C0DE}
 
