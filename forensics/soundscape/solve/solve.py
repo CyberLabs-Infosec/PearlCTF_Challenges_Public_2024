@@ -6,6 +6,10 @@ Each sequence of 8 bits from Raine.wav corresponds to the Red value of one pixel
 With this information, we can proceed to create the image by assigning the pixel values accordingly. Once the image is constructed, we can obtain the flag. 
 
 flag : pearl{pearls_gleam_in_the_ocean's_embrace}
+link to file : https://mega.nz/file/0jZ03KKI#1UQC6BxAICFEXrbgASRmgXVR1nnqrM_nFuaVDsXqIeU
+prompt : I requested my friend who was just at the beach to send me some photos of the ocean. Instead, he handed me audio files and stated that this was the image.
+         Please find the image for me and in return, I'll give you the flag.
+
 """
 
 
